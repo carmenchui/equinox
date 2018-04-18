@@ -12,6 +12,7 @@ make
 
 Installation Instructions on Mac OS X (10.10.+)
 -----------------------------------------------
+The following scripts are **unmodified** from the original source; this repo is meant as a **backup** of a working version, along with any associated instructions to help users get this running on their Macs.
 
 1. Clone the equinox project from Github or download the zip.
 2. Download Haskell from the official site -- I used the installer, but you could do it with homebrew as well. **I think you can avoid all the problems I had (see below @ step 12) if you download the Full version of Haskell, not Core, but I'm not sure.  I only used Core because I wanted to save hard drive space... (oops)
