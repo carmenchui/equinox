@@ -75,9 +75,9 @@ e.g., I dumped some TPTP files in the Problems folder with the model flag and it
 ```bash
     ./paradox Problems/most.tptp --model
 ```
-![paradox](/doc/img/2018-04-18_09-52-38.jpg?raw=true)
+![paradox](/images/2018-04-18_09-52-38.jpg?raw=true)
 You can use the > command to print models to a file.
 ```bash
     ./paradox Problems/most.tptp --model --verbose 2 > Problems/most_output.txt
 ```
-![paradoxoutput](/doc/img/2018-04-18_09-59-29.jpg?raw=true)
+![paradoxoutput](/images/2018-04-18_09-59-29.jpg?raw=true)
