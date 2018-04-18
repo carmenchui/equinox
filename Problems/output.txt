@@ -1,0 +1,237 @@
+Paradox, version 4.0, 2010-06-29.
++++ PROBLEM: Problems/most.select.tptp
+Reading 'Problems/most.select.tptp' ... OK
++++ SOLVING: Problems/most.select.tptp
+domain size 1
++++ BEGIN MODEL
+% domain size is 1
+
+alternatinggroup(!1) <=> $true
+
+atom(!1) <=> $false
+
+attached(!1,!1) <=> $false
+
+between(!1,!1,!1) <=> $false
+
+bond(!1) <=> $false
+
+bridge(!1,!1,!1) <=> $false
+
+bridgehead(!1,!1,!1) <=> $false
+
+chain(!1) <=> $false
+
+doublebond(!1,!1,!1) <=> $true
+
+end(!1,!1) <=> $false
+
+fork(!1) <=> $false
+
+fused(!1,!1) <=> $false
+
+fusedatom(!1,!1,!1) <=> $false
+
+fusedskeleton(!1) <=> $false
+
+group(!1) <=> $false
+
+inskeleton(X1,X2) <=> $false
+
+intersects(!1,!1) <=> $false
+
+linearskeleton(!1) <=> $false
+
+mol(!1,!1) <=> $true
+
+multiply_fused(!1,!1) <=> $false
+
+part(!1,!1) <=> $false
+
+ring(!1) <=> $false
+
+ringbond(!1) <=> $false
+
+sK100_sos200_X203 = !1
+
+sK10_sos60_X64(!1) = !1
+
+sK123_sos210_X211(!1,!1) = !1
+
+sK124_sos210_X213(!1,!1) = !1
+
+sK125_sos210_X212(!1,!1) = !1
+
+sK126_sos210_X214(!1,!1) = !1
+
+sK133_sos220_X223(!1) = !1
+
+sK134_sos220_X221(!1) = !1
+
+sK151_sos260_X261(!1,!1) = !1
+
+sK152_sos260_X262(!1,!1) = !1
+
+sK155_sos270_X271 = !1
+
+sK159_sos280_X282 = !1
+
+sK173_sos310_X313(!1,!1) = !1
+
+sK176_sos320_X323(!1,!1,!1,!1) = !1
+
+sK185_sos340_X341(!1,!1) = !1
+
+sK186_sos340_X342(!1,!1) = !1
+
+sK187_sos340_X343(!1,!1) = !1
+
+sK193_sos350_X352(!1,!1) = !1
+
+sK194_sos350_X355(!1,!1) = !1
+
+sK200_sos360_X361(!1,!1) = !1
+
+sK201_sos360_X362(!1,!1) = !1
+
+sK207_sos370_X372(!1,!1,!1) = !1
+
+sK208_sos370_X375(!1,!1,!1) = !1
+
+sK214_sos380_X383(!1,!1) = !1
+
+sK219_sos390_X394(!1,!1) = !1
+
+sK220_sos390_X391(!1,!1) = !1
+
+sK225_sos400_X402(!1,!1,!1) = !1
+
+sK226_sos400_X406(!1,!1,!1) = !1
+
+sK227_sos400_X405(!1,!1,!1) = !1
+
+sK234_sos410_X411(!1,!1) = !1
+
+sK238_sos420_X421(!1,!1) = !1
+
+sK239_sos420_X422(!1,!1) = !1
+
+sK244_sos430_X432(!1) = !1
+
+sK246_sos440_X441(!1) = !1
+
+sK247_sos440_X444(!1) = !1
+
+sK248_sos440_X442(!1,!1) = !1
+
+sK275_sos510_X512(!1) = !1
+
+sK277_sos520_X521(!1) = !1
+
+sK278_sos520_X523(!1) = !1
+
+sK279_sos520_X524(!1) = !1
+
+sK280_sos520_X526(!1) = !1
+
+sK283_sos530_X532(!1) = !1
+
+sK284_sos530_X533(!1) = !1
+
+sK288_sos540_X541(!1) = !1
+
+sK290_sos550_X551(!1) = !1
+
+sK295_sos570_X573(!1) = !1
+
+sK296_sos570_X571(!1,!1) = !1
+
+sK297_sos570_X574(!1,!1) = !1
+
+sK298_sos570_X575(!1) = !1
+
+sK304_sos580_X582(!1) = !1
+
+sK307_sos590_X593(!1,!1) = !1
+
+sK32_sos120_X122(!1) = !1
+
+sK38_sos140_X141(!1,!1) = !1
+
+sK41_sos150_X151(!1) = !1
+
+sK44_sos160_X166(!1,!1) = !1
+
+sK45_sos160_X161(!1,!1) = !1
+
+sK46_sos160_X162(!1,!1) = !1
+
+sK47_sos160_X163(!1,!1) = !1
+
+sK4_sos40_X41(!1) = !1
+
+sK54_sos170_X174(!1) = !1
+
+sK55_sos170_X175(!1) = !1
+
+sK56_sos170_X176(!1) = !1
+
+sK57_sos170_X171(!1) = !1
+
+sK58_sos170_X173(!1) = !1
+
+sK59_sos170_X172(!1) = !1
+
+sK68_sos180_X181(!1) = !1
+
+sK69_sos180_X183(!1) = !1
+
+sK6_sos50_X51(!1) = !1
+
+sK73_sos190_X194(!1) = !1
+
+sK74_sos190_X191(!1) = !1
+
+sK75_sos190_X193(!1) = !1
+
+sK81_sos200_X201(!1) = !1
+
+sK84_sos200_X201 = !1
+
+sK85_sos200_X203 = !1
+
+sK86_sos200_X204(!1) = !1
+
+sK89_sos200_X204 = !1
+
+sK8_sos60_X63(!1) = !1
+
+sK91_sos200_X203 = !1
+
+sK94_sos200_X203 = !1
+
+sK96_sos200_X201 = !1
+
+sK98_sos200_X204 = !1
+
+sK99_sos200_X201 = !1
+
+sK9_sos60_X61(!1) = !1
+
+saturated(!1) <=> $false
+
+scaffold(!1) <=> $false
+
+singlebond(!1,!1,!1) <=> $false
+
+skeleton(!1) <=> $false
+
+spiro(!1,!1,!1) <=> $false
+
+tether(!1,!1,!1) <=> $false
+
+trivialgroup(!1) <=> $false
+
+unsaturated(!1) <=> $false
++++ END MODEL
++++ RESULT: Satisfiable
